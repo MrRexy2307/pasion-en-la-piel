@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    
+    h1{
+        color: white;
+        margin-inline: 30px;
+    }
+    nav ul{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        margin-inline: .625rem;
+        li a{
+            text-decoration: none;
+            color: white;
+            font-size: 23px;
+        }
+    }
+}
+
+body{
+    margin: 0;
+}
