@@ -1,0 +1,28 @@
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-inline: .625rem;
+
+    div{
+        margin-inline: 30px;
+    }
+
+    div h2{
+        font-size: 50px;
+    }
+    div article p{
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    img{
+        margin-inline: 1.875rem;
+        height: 700px;
+        width: 550px;
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+        filter: drop-shadow(5px 5px 5px rgba(0,0,0,6));
+    }
+}

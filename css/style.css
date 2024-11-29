@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+header h1 {
+  color: white;
+  margin-inline: 30px;
+}
+header nav ul {
+  padding-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-inline: 0.625rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-inline: 0.625rem;
+}
+section div {
+  margin-inline: 30px;
+}
+section div h2 {
+  font-size: 50px;
+}
+section div article p {
+  font-size: 30px;
+  text-align: justify;
+}
+section img {
+  margin-inline: 1.875rem;
+  height: 700px;
+  width: 550px;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+}
+
+/*# sourceMappingURL=style.css.map */
